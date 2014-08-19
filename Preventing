@@ -3,6 +3,10 @@ or
 return false;
 
 
+AND 
+event.stopPropagation() 
+
+
 it doesn't matter where you put it as long as it's inside the event callback function.
 
 1- 
