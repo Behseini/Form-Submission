@@ -1,0 +1,15 @@
+1- Targeting the Form Directly
+
+ $( "form" ).on( "submit", function( e ) {
+       e.preventDefault();
+   });
+2- Targeting a Button in Form
+
+$( "#abtn" ).on( "click", function( e ) {
+       e.preventDefault();
+ });
+3- Targeting Submit Button in the Form
+
+$('#submit').click(function () {
+         return false;
+  });
