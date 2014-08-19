@@ -1,0 +1,23 @@
+e.preventDefault();
+or
+return false;
+
+
+it doesn't matter where you put it as long as it's inside the event callback function.
+
+1- 
+
+ $( "form" ).on( "submit", function( e ) {
+       e.preventDefault();
+   });
+2- 
+
+$( "#abtn" ).on( "click", function( e ) {
+       e.preventDefault();
+ });
+ 
+3- 
+
+$('#submit').click(function () {
+     return false;
+  });
