@@ -2,6 +2,9 @@
 
 1- Using jquery Ability
 
+Using   $('#theForm')[0].reset(); or
+        $('#theForm').trigger("reset");
+
 <form id="theForm" method="" action="">
     <input type="text" class="removeLater" name="name" /> Username<br/><br />
     <input type="checkbox" class="removeLater" name="subscribe" /> Subscribe<br/><br />
@@ -43,3 +46,9 @@ $(function () {
     <button type="submit" class="btn-sm" id="submit">Submit</button>
     <input type="reset" class="btn-sm" id="reset">
 </form>  
+
+
+
+URL=
+
+http://jsfiddle.net/Behseini/t8nj2pm5/
